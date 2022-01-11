@@ -1,2 +1,87 @@
 p {
   right: 0; }
+
+@font-face {
+  font-family: "Nexa Thin";
+  src: url("../assets/fonts/NexaThin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Thin Italic";
+  font-style: italic;
+  src: url("../assets/fonts/NexaThinItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Extra Light";
+  src: url("../assets/fonts/NexaExtraLight.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Extra Light Italic";
+  font-style: italic;
+  src: url("../assets/fonts/NexaExtraLightItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Light";
+  src: url("../assets/fonts/NexaLight.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Light Italic";
+  font-style: italic;
+  src: url("../assets/fonts/NexaLightItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Book";
+  src: url("../assets/fonts/NexaBook.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Book Italic";
+  font-style: italic;
+  src: url("../assets/fonts/NexaBookItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Regular";
+  src: url("../assets/fonts/NexaRegular.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Regular Italic";
+  font-style: italic;
+  src: url("../assets/fonts/NexaRegularItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Bold";
+  font-weight: bold;
+  src: url("../assets/fonts/NexaBold.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Bold Italic";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../assets/fonts/NexaBoldItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Extra Bold";
+  font-weight: bold;
+  src: url("../assets/fonts/NexaXBold.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Extra Bold Italic";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../assets/fonts/NexaXBoldItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Heavy";
+  src: url("../assets/fonts/NexaHeavy.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Heavy Italic";
+  font-style: italic;
+  src: url("../assets/fonts/NexaHeavyItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Black";
+  src: url("../assets/fonts/NexaBlack.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa Black Italic";
+  font-style: italic;
+  src: url("../assets/fonts/NexaBlackItalic.otf") format("opentype"); }

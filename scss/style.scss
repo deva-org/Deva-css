@@ -1,3 +1,69 @@
 p {
     right: 0;
 }
+
+// Nexa Font Family (Includes 18 Typeface)
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+	$src: null;
+	$extmods: (
+		eot: "?",
+		svg: "#" + str-replace($name, " ", "_")
+	);
+
+	$formats: (
+		otf: "opentype",
+		ttf: "truetype"
+	);
+
+	@each $ext in $exts {
+		$extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+		$format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+		$src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+	}
+
+	@font-face {
+		font-family: quote($name);
+		font-style: $style;
+		font-weight: $weight;
+		src: $src;
+	}
+}
+
+// Nexa Thin
+@include font-face("Nexa Thin", "../assets/fonts/NexaThin", null, null, otf);
+// Nexa Thin Italic
+@include font-face("Nexa Thin Italic", "../assets/fonts/NexaThinItalic", null, italic, otf);
+// Nexa Extra Light
+@include font-face("Nexa Extra Light", "../assets/fonts/NexaExtraLight", null, null, otf);
+// Nexa Extra Light Italic
+@include font-face("Nexa Extra Light Italic", "../assets/fonts/NexaExtraLightItalic", null, italic, otf);
+// Nexa Light
+@include font-face("Nexa Light", "../assets/fonts/NexaLight", null, null, otf);
+// Nexa Light Italic
+@include font-face("Nexa Light Italic", "../assets/fonts/NexaLightItalic", null, italic, otf);
+// Nexa Book
+@include font-face("Nexa Book", "../assets/fonts/NexaBook", null, null, otf);
+// Nexa Book Italic
+@include font-face("Nexa Book Italic", "../assets/fonts/NexaBookItalic", null, italic, otf);
+// Nexa Regular
+@include font-face("Nexa Regular", "../assets/fonts/NexaRegular", null, null, otf);
+// Nexa Regular Italic
+@include font-face("Nexa Regular Italic", "../assets/fonts/NexaRegularItalic", null, italic, otf);
+// Nexa Bold
+@include font-face("Nexa Bold", "../assets/fonts/NexaBold", bold, null, otf);
+// Nexa Bold Italic
+@include font-face("Nexa Bold Italic", "../assets/fonts/NexaBoldItalic", bold, italic, otf);
+// Nexa Extra Bold
+@include font-face("Nexa Extra Bold", "../assets/fonts/NexaXBold", bold, null, otf);
+// Nexa Extra Bold Italic
+@include font-face("Nexa Extra Bold Italic", "../assets/fonts/NexaXBoldItalic", bold, italic, otf);
+// Nexa Heavy
+@include font-face("Nexa Heavy", "../assets/fonts/NexaHeavy", null, null, otf);
+// Nexa Heavy Italic
+@include font-face("Nexa Heavy Italic", "../assets/fonts/NexaHeavyItalic", null, italic, otf);
+// Nexa Black
+@include font-face("Nexa Black", "../assets/fonts/NexaBlack", null, null, otf);
+// Nexa Black Italic
+@include font-face("Nexa Black Italic", "../assets/fonts/NexaBlackItalic", null, italic, otf);
+
