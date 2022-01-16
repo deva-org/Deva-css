@@ -1,0 +1,28 @@
+@each $name, $hex in $colors {
+	.text-#{$name}{
+		color: $hex;
+	}
+	.bg-#{$name}{
+		background-color: $hex;
+	}
+	
+	// Light variation
+	@for $var from 1 to 9 {
+		.text-#{$name}-light-#{$var}{
+			color: mix(#ffffff, $hex , $var * 10);
+		}
+		.bg-#{$name}-light-#{$var}{
+			background-color: mix(#ffffff, $hex , $var * 10);
+		}
+	}
+	
+	// Dark variation
+	@for $var from 1 to 9 {
+		.text-#{$name}-dark-#{$var}{
+			color: mix(#000000, $hex , $var * 10);
+		}
+		.bg-#{$name}-dark-#{$var}{
+			background-color: mix(#000000, $hex , $var * 10);
+		}
+	}
+}
