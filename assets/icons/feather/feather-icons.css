@@ -1,0 +1,345 @@
+[class^="feather"]:before,
+[class*=" feather"]:before {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+[class*="feather"].flip-horizontal:before {
+    transform: scaleX(-1);
+}
+[class*="feather"].flip-horizontal.rotate-90:before {
+    transform: rotate(90deg) scaleX(-1);
+}
+[class*="feather"].flip-horizontal.rotate-180:before {
+    transform: rotate(180deg) scaleX(-1);
+}
+[class*="feather"].flip-horizontal.rotate-270:before {
+    transform: rotate(270deg) scaleX(-1);
+}
+[class*="feather"].flip-horizontal.flip-vertical:before {
+    transform: scale(-1);
+}
+[class*="feather"].flip-horizontal.flip-vertical.rotate-90:before {
+    transform: rotate(90deg) scale(-1);
+}
+[class*="feather"].flip-horizontal.flip-vertical.rotate-180:before {
+    transform: rotate(180deg) scale(-1);
+}
+[class*="feather"].flip-horizontal.flip-vertical.rotate-270:before {
+    transform: rotate(270deg) scale(-1);
+}
+[class*="feather"].flip-vertical:before {
+    transform: scaleY(-1);
+}
+[class*="feather"].flip-vertical.rotate-90:before {
+    transform: rotate(90deg) scaleY(-1);
+}
+[class*="feather"].flip-vertical.rotate-180:before {
+    transform: rotate(180deg) scaleY(-1);
+}
+[class*="feather"].flip-vertical.rotate-270:before {
+    transform: rotate(270deg) scaleY(-1);
+}
+[class*="feather"].rotate-90:before {
+    transform: rotate(90deg);
+}
+[class*="feather"].rotate-180:before {
+    transform: rotate(180deg);
+}
+[class*="feather"].rotate-270:before {
+    transform: rotate(270deg);
+}
+
+.feather-activity:before {content: url(./icons/activity.svg);}
+.feather-airplay:before {content: url(./icons/airplay.svg);}
+.feather-alert-circle:before {content: url(./icons/alert-circle.svg);}
+.feather-alert-octagon:before {content: url(./icons/alert-octagon.svg);}
+.feather-alert-triangle:before {content: url(./icons/alert-triangle.svg);}
+.feather-align-center:before {content: url(./icons/align-center.svg);}
+.feather-align-justify:before {content: url(./icons/align-justify.svg);}
+.feather-align-left:before {content: url(./icons/align-left.svg);}
+.feather-align-right:before {content: url(./icons/align-right.svg);}
+.feather-anchor:before {content: url(./icons/anchor.svg);}
+.feather-aperture:before {content: url(./icons/aperture.svg);}
+.feather-archive:before {content: url(./icons/archive.svg);}
+.feather-arrow-down-circle:before {content: url(./icons/arrow-down-circle.svg);}
+.feather-arrow-down-left:before {content: url(./icons/arrow-down-left.svg);}
+.feather-arrow-down-right:before {content: url(./icons/arrow-down-right.svg);}
+.feather-arrow-down:before {content: url(./icons/arrow-down.svg);}
+.feather-arrow-left-circle:before {content: url(./icons/arrow-left-circle.svg);}
+.feather-arrow-left:before {content: url(./icons/arrow-left.svg);}
+.feather-arrow-right-circle:before {content: url(./icons/arrow-right-circle.svg);}
+.feather-arrow-right:before {content: url(./icons/arrow-right.svg);}
+.feather-arrow-up-circle:before {content: url(./icons/arrow-up-circle.svg);}
+.feather-arrow-up-left:before {content: url(./icons/arrow-up-left.svg);}
+.feather-arrow-up-right:before {content: url(./icons/arrow-up-right.svg);}
+.feather-arrow-up:before {content: url(./icons/arrow-up.svg);}
+.feather-at-sign:before {content: url(./icons/at-sign.svg);}
+.feather-award:before {content: url(./icons/award.svg);}
+.feather-bar-chart-2:before {content: url(./icons/bar-chart-2.svg);}
+.feather-bar-chart:before {content: url(./icons/bar-chart.svg);}
+.feather-battery-charging:before {content: url(./icons/battery-charging.svg);}
+.feather-battery:before {content: url(./icons/battery.svg);}
+.feather-bell-off:before {content: url(./icons/bell-off.svg);}
+.feather-bell:before {content: url(./icons/bell.svg);}
+.feather-bluetooth:before {content: url(./icons/bluetooth.svg);}
+.feather-bold:before {content: url(./icons/bold.svg);}
+.feather-book-open:before {content: url(./icons/book-open.svg);}
+.feather-book:before {content: url(./icons/book.svg);}
+.feather-bookmark:before {content: url(./icons/bookmark.svg);}
+.feather-box:before {content: url(./icons/box.svg);}
+.feather-briefcase:before {content: url(./icons/briefcase.svg);}
+.feather-calendar:before {content: url(./icons/calendar.svg);}
+.feather-camera-off:before {content: url(./icons/camera-off.svg);}
+.feather-camera:before {content: url(./icons/camera.svg);}
+.feather-cast:before {content: url(./icons/cast.svg);}
+.feather-check-circle:before {content: url(./icons/check-circle.svg);}
+.feather-check-square:before {content: url(./icons/check-square.svg);}
+.feather-check:before {content: url(./icons/check.svg);}
+.feather-chevron-down:before {content: url(./icons/chevron-down.svg);}
+.feather-chevron-left:before {content: url(./icons/chevron-left.svg);}
+.feather-chevron-right:before {content: url(./icons/chevron-right.svg);}
+.feather-chevron-up:before {content: url(./icons/chevron-up.svg);}
+.feather-chevrons-down:before {content: url(./icons/chevrons-down.svg);}
+.feather-chevrons-left:before {content: url(./icons/chevrons-left.svg);}
+.feather-chevrons-right:before {content: url(./icons/chevrons-right.svg);}
+.feather-chevrons-up:before {content: url(./icons/chevrons-up.svg);}
+.feather-chrome:before {content: url(./icons/chrome.svg);}
+.feather-circle:before {content: url(./icons/circle.svg);}
+.feather-clipboard:before {content: url(./icons/clipboard.svg);}
+.feather-clock:before {content: url(./icons/clock.svg);}
+.feather-cloud-drizzle:before {content: url(./icons/cloud-drizzle.svg);}
+.feather-cloud-lightning:before {content: url(./icons/cloud-lightning.svg);}
+.feather-cloud-off:before {content: url(./icons/cloud-off.svg);}
+.feather-cloud-rain:before {content: url(./icons/cloud-rain.svg);}
+.feather-cloud-snow:before {content: url(./icons/cloud-snow.svg);}
+.feather-cloud:before {content: url(./icons/cloud.svg);}
+.feather-code:before {content: url(./icons/code.svg);}
+.feather-codepen:before {content: url(./icons/codepen.svg);}
+.feather-codesandbox:before {content: url(./icons/codesandbox.svg);}
+.feather-coffee:before {content: url(./icons/coffee.svg);}
+.feather-columns:before {content: url(./icons/columns.svg);}
+.feather-command:before {content: url(./icons/command.svg);}
+.feather-compass:before {content: url(./icons/compass.svg);}
+.feather-copy:before {content: url(./icons/copy.svg);}
+.feather-corner-down-left:before {content: url(./icons/corner-down-left.svg);}
+.feather-corner-down-right:before {content: url(./icons/corner-down-right.svg);}
+.feather-corner-left-down:before {content: url(./icons/corner-left-down.svg);}
+.feather-corner-left-up:before {content: url(./icons/corner-left-up.svg);}
+.feather-corner-right-down:before {content: url(./icons/corner-right-down.svg);}
+.feather-corner-right-up:before {content: url(./icons/corner-right-up.svg);}
+.feather-corner-up-left:before {content: url(./icons/corner-up-left.svg);}
+.feather-corner-up-right:before {content: url(./icons/corner-up-right.svg);}
+.feather-cpu:before {content: url(./icons/cpu.svg);}
+.feather-credit-card:before {content: url(./icons/credit-card.svg);}
+.feather-crop:before {content: url(./icons/crop.svg);}
+.feather-crosshair:before {content: url(./icons/crosshair.svg);}
+.feather-database:before {content: url(./icons/database.svg);}
+.feather-delete:before {content: url(./icons/delete.svg);}
+.feather-disc:before {content: url(./icons/disc.svg);}
+.feather-divide-circle:before {content: url(./icons/divide-circle.svg);}
+.feather-divide-square:before {content: url(./icons/divide-square.svg);}
+.feather-divide:before {content: url(./icons/divide.svg);}
+.feather-dollar-sign:before {content: url(./icons/dollar-sign.svg);}
+.feather-download-cloud:before {content: url(./icons/download-cloud.svg);}
+.feather-download:before {content: url(./icons/download.svg);}
+.feather-dribbble:before {content: url(./icons/dribbble.svg);}
+.feather-droplet:before {content: url(./icons/droplet.svg);}
+.feather-edit-2:before {content: url(./icons/edit-2.svg);}
+.feather-edit-3:before {content: url(./icons/edit-3.svg);}
+.feather-edit:before {content: url(./icons/edit.svg);}
+.feather-external-link:before {content: url(./icons/external-link.svg);}
+.feather-eye-off:before {content: url(./icons/eye-off.svg);}
+.feather-eye:before {content: url(./icons/eye.svg);}
+.feather-facebook:before {content: url(./icons/facebook.svg);}
+.feather-fast-forward:before {content: url(./icons/fast-forward.svg);}
+.feather-feather:before {content: url(./icons/feather.svg);}
+.feather-figma:before {content: url(./icons/figma.svg);}
+.feather-file-minus:before {content: url(./icons/file-minus.svg);}
+.feather-file-plus:before {content: url(./icons/file-plus.svg);}
+.feather-file-text:before {content: url(./icons/file-text.svg);}
+.feather-file:before {content: url(./icons/file.svg);}
+.feather-film:before {content: url(./icons/film.svg);}
+.feather-filter:before {content: url(./icons/filter.svg);}
+.feather-flag:before {content: url(./icons/flag.svg);}
+.feather-folder-minus:before {content: url(./icons/folder-minus.svg);}
+.feather-folder-plus:before {content: url(./icons/folder-plus.svg);}
+.feather-folder:before {content: url(./icons/folder.svg);}
+.feather-framer:before {content: url(./icons/framer.svg);}
+.feather-frown:before {content: url(./icons/frown.svg);}
+.feather-gift:before {content: url(./icons/gift.svg);}
+.feather-git-branch:before {content: url(./icons/git-branch.svg);}
+.feather-git-commit:before {content: url(./icons/git-commit.svg);}
+.feather-git-merge:before {content: url(./icons/git-merge.svg);}
+.feather-git-pull-request:before {content: url(./icons/git-pull-request.svg);}
+.feather-github:before {content: url(./icons/github.svg);}
+.feather-gitlab:before {content: url(./icons/gitlab.svg);}
+.feather-globe:before {content: url(./icons/globe.svg);}
+.feather-grid:before {content: url(./icons/grid.svg);}
+.feather-hard-drive:before {content: url(./icons/hard-drive.svg);}
+.feather-hash:before {content: url(./icons/hash.svg);}
+.feather-headphones:before {content: url(./icons/headphones.svg);}
+.feather-heart:before {content: url(./icons/heart.svg);}
+.feather-help-circle:before {content: url(./icons/help-circle.svg);}
+.feather-hexagon:before {content: url(./icons/hexagon.svg);}
+.feather-home:before {content: url(./icons/home.svg);}
+.feather-image:before {content: url(./icons/image.svg);}
+.feather-inbox:before {content: url(./icons/inbox.svg);}
+.feather-info:before {content: url(./icons/info.svg);}
+.feather-instagram:before {content: url(./icons/instagram.svg);}
+.feather-italic:before {content: url(./icons/italic.svg);}
+.feather-key:before {content: url(./icons/key.svg);}
+.feather-layers:before {content: url(./icons/layers.svg);}
+.feather-layout:before {content: url(./icons/layout.svg);}
+.feather-life-buoy:before {content: url(./icons/life-buoy.svg);}
+.feather-link-2:before {content: url(./icons/link-2.svg);}
+.feather-link:before {content: url(./icons/link.svg);}
+.feather-linkedin:before {content: url(./icons/linkedin.svg);}
+.feather-list:before {content: url(./icons/list.svg);}
+.feather-loader:before {content: url(./icons/loader.svg);}
+.feather-lock:before {content: url(./icons/lock.svg);}
+.feather-log-in:before {content: url(./icons/log-in.svg);}
+.feather-log-out:before {content: url(./icons/log-out.svg);}
+.feather-mail:before {content: url(./icons/mail.svg);}
+.feather-map-pin:before {content: url(./icons/map-pin.svg);}
+.feather-map:before {content: url(./icons/map.svg);}
+.feather-maximize-2:before {content: url(./icons/maximize-2.svg);}
+.feather-maximize:before {content: url(./icons/maximize.svg);}
+.feather-meh:before {content: url(./icons/meh.svg);}
+.feather-menu:before {content: url(./icons/menu.svg);}
+.feather-message-circle:before {content: url(./icons/message-circle.svg);}
+.feather-message-square:before {content: url(./icons/message-square.svg);}
+.feather-mic-off:before {content: url(./icons/mic-off.svg);}
+.feather-mic:before {content: url(./icons/mic.svg);}
+.feather-minimize-2:before {content: url(./icons/minimize-2.svg);}
+.feather-minimize:before {content: url(./icons/minimize.svg);}
+.feather-minus-circle:before {content: url(./icons/minus-circle.svg);}
+.feather-minus-square:before {content: url(./icons/minus-square.svg);}
+.feather-minus:before {content: url(./icons/minus.svg);}
+.feather-monitor:before {content: url(./icons/monitor.svg);}
+.feather-moon:before {content: url(./icons/moon.svg);}
+.feather-more-horizontal:before {content: url(./icons/more-horizontal.svg);}
+.feather-more-vertical:before {content: url(./icons/more-vertical.svg);}
+.feather-mouse-pointer:before {content: url(./icons/mouse-pointer.svg);}
+.feather-move:before {content: url(./icons/move.svg);}
+.feather-music:before {content: url(./icons/music.svg);}
+.feather-navigation-2:before {content: url(./icons/navigation-2.svg);}
+.feather-navigation:before {content: url(./icons/navigation.svg);}
+.feather-octagon:before {content: url(./icons/octagon.svg);}
+.feather-package:before {content: url(./icons/package.svg);}
+.feather-paperclip:before {content: url(./icons/paperclip.svg);}
+.feather-pause-circle:before {content: url(./icons/pause-circle.svg);}
+.feather-pause:before {content: url(./icons/pause.svg);}
+.feather-pen-tool:before {content: url(./icons/pen-tool.svg);}
+.feather-percent:before {content: url(./icons/percent.svg);}
+.feather-phone-call:before {content: url(./icons/phone-call.svg);}
+.feather-phone-forwarded:before {content: url(./icons/phone-forwarded.svg);}
+.feather-phone-incoming:before {content: url(./icons/phone-incoming.svg);}
+.feather-phone-missed:before {content: url(./icons/phone-missed.svg);}
+.feather-phone-off:before {content: url(./icons/phone-off.svg);}
+.feather-phone-outgoing:before {content: url(./icons/phone-outgoing.svg);}
+.feather-phone:before {content: url(./icons/phone.svg);}
+.feather-pie-chart:before {content: url(./icons/pie-chart.svg);}
+.feather-play-circle:before {content: url(./icons/play-circle.svg);}
+.feather-play:before {content: url(./icons/play.svg);}
+.feather-plus-circle:before {content: url(./icons/plus-circle.svg);}
+.feather-plus-square:before {content: url(./icons/plus-square.svg);}
+.feather-plus:before {content: url(./icons/plus.svg);}
+.feather-pocket:before {content: url(./icons/pocket.svg);}
+.feather-power:before {content: url(./icons/power.svg);}
+.feather-printer:before {content: url(./icons/printer.svg);}
+.feather-radio:before {content: url(./icons/radio.svg);}
+.feather-refresh-ccw:before {content: url(./icons/refresh-ccw.svg);}
+.feather-refresh-cw:before {content: url(./icons/refresh-cw.svg);}
+.feather-repeat:before {content: url(./icons/repeat.svg);}
+.feather-rewind:before {content: url(./icons/rewind.svg);}
+.feather-rotate-ccw:before {content: url(./icons/rotate-ccw.svg);}
+.feather-rotate-cw:before {content: url(./icons/rotate-cw.svg);}
+.feather-rss:before {content: url(./icons/rss.svg);}
+.feather-save:before {content: url(./icons/save.svg);}
+.feather-scissors:before {content: url(./icons/scissors.svg);}
+.feather-search:before {content: url(./icons/search.svg);}
+.feather-send:before {content: url(./icons/send.svg);}
+.feather-server:before {content: url(./icons/server.svg);}
+.feather-settings:before {content: url(./icons/settings.svg);}
+.feather-share-2:before {content: url(./icons/share-2.svg);}
+.feather-share:before {content: url(./icons/share.svg);}
+.feather-shield-off:before {content: url(./icons/shield-off.svg);}
+.feather-shield:before {content: url(./icons/shield.svg);}
+.feather-shopping-bag:before {content: url(./icons/shopping-bag.svg);}
+.feather-shopping-cart:before {content: url(./icons/shopping-cart.svg);}
+.feather-shuffle:before {content: url(./icons/shuffle.svg);}
+.feather-sidebar:before {content: url(./icons/sidebar.svg);}
+.feather-skip-back:before {content: url(./icons/skip-back.svg);}
+.feather-skip-forward:before {content: url(./icons/skip-forward.svg);}
+.feather-slack:before {content: url(./icons/slack.svg);}
+.feather-slash:before {content: url(./icons/slash.svg);}
+.feather-sliders:before {content: url(./icons/sliders.svg);}
+.feather-smartphone:before {content: url(./icons/smartphone.svg);}
+.feather-smile:before {content: url(./icons/smile.svg);}
+.feather-speaker:before {content: url(./icons/speaker.svg);}
+.feather-square:before {content: url(./icons/square.svg);}
+.feather-star:before {content: url(./icons/star.svg);}
+.feather-stop-circle:before {content: url(./icons/stop-circle.svg);}
+.feather-sun:before {content: url(./icons/sun.svg);}
+.feather-sunrise:before {content: url(./icons/sunrise.svg);}
+.feather-sunset:before {content: url(./icons/sunset.svg);}
+.feather-tablet:before {content: url(./icons/tablet.svg);}
+.feather-tag:before {content: url(./icons/tag.svg);}
+.feather-target:before {content: url(./icons/target.svg);}
+.feather-terminal:before {content: url(./icons/terminal.svg);}
+.feather-thermometer:before {content: url(./icons/thermometer.svg);}
+.feather-thumbs-down:before {content: url(./icons/thumbs-down.svg);}
+.feather-thumbs-up:before {content: url(./icons/thumbs-up.svg);}
+.feather-toggle-left:before {content: url(./icons/toggle-left.svg);}
+.feather-toggle-right:before {content: url(./icons/toggle-right.svg);}
+.feather-tool:before {content: url(./icons/tool.svg);}
+.feather-trash-2:before {content: url(./icons/trash-2.svg);}
+.feather-trash:before {content: url(./icons/trash.svg);}
+.feather-trello:before {content: url(./icons/trello.svg);}
+.feather-trending-down:before {content: url(./icons/trending-down.svg);}
+.feather-trending-up:before {content: url(./icons/trending-up.svg);}
+.feather-triangle:before {content: url(./icons/triangle.svg);}
+.feather-truck:before {content: url(./icons/truck.svg);}
+.feather-tv:before {content: url(./icons/tv.svg);}
+.feather-twitch:before {content: url(./icons/twitch.svg);}
+.feather-twitter:before {content: url(./icons/twitter.svg);}
+.feather-type:before {content: url(./icons/type.svg);}
+.feather-umbrella:before {content: url(./icons/umbrella.svg);}
+.feather-underline:before {content: url(./icons/underline.svg);}
+.feather-unlock:before {content: url(./icons/unlock.svg);}
+.feather-upload-cloud:before {content: url(./icons/upload-cloud.svg);}
+.feather-upload:before {content: url(./icons/upload.svg);}
+.feather-user-check:before {content: url(./icons/user-check.svg);}
+.feather-user-minus:before {content: url(./icons/user-minus.svg);}
+.feather-user-plus:before {content: url(./icons/user-plus.svg);}
+.feather-user-x:before {content: url(./icons/user-x.svg);}
+.feather-user:before {content: url(./icons/user.svg);}
+.feather-users:before {content: url(./icons/users.svg);}
+.feather-video-off:before {content: url(./icons/video-off.svg);}
+.feather-video:before {content: url(./icons/video.svg);}
+.feather-voicemail:before {content: url(./icons/voicemail.svg);}
+.feather-volume-1:before {content: url(./icons/volume-1.svg);}
+.feather-volume-2:before {content: url(./icons/volume-2.svg);}
+.feather-volume-x:before {content: url(./icons/volume-x.svg);}
+.feather-volume:before {content: url(./icons/volume.svg);}
+.feather-watch:before {content: url(./icons/watch.svg);}
+.feather-wifi-off:before {content: url(./icons/wifi-off.svg);}
+.feather-wifi:before {content: url(./icons/wifi.svg);}
+.feather-wind:before {content: url(./icons/wind.svg);}
+.feather-x-circle:before {content: url(./icons/x-circle.svg);}
+.feather-x-octagon:before {content: url(./icons/x-octagon.svg);}
+.feather-x-square:before {content: url(./icons/x-square.svg);}
+.feather-x:before {content: url(./icons/x.svg);}
+.feather-youtube:before {content: url(./icons/youtube.svg);}
+.feather-zap-off:before {content: url(./icons/zap-off.svg);}
+.feather-zap:before {content: url(./icons/zap.svg);}
+.feather-zoom-in:before {content: url(./icons/zoom-in.svg);}
+.feather-zoom-out:before {content: url(./icons/zoom-out.svg);}
