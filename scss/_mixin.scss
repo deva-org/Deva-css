@@ -1,0 +1,26 @@
+@mixin text-reset {
+    font-family: $font-family-base !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 1.25 !important;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    text-transform: none !important;
+    text-align: left !important;
+    text-align: start !important;
+    letter-spacing: normal !important;
+    word-break: normal !important;
+    word-spacing: normal !important;
+    white-space: normal !important;
+    line-break: auto !important;
+  }
+  
+@mixin text-wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin font-size($size) {
+  font-size : $size;
+}

@@ -47,3 +47,45 @@ $colors: (
     "error-400": #FB6944,
     "error-500": #FF4545,
 );
+
+$link-color:              #0d6efd;
+$link-color-hover:          lighten($link-color, 10%);
+$link-color-visited:        darken($link-color, 20%);
+$link-color-active:         darken($link-color, 10%);
+
+// Typography
+
+$font-family-base:          'Nexa';
+
+$font-size-base:            1em;
+$font-size-sm:              $font-size-base * .75;
+$font-size-lg:              $font-size-base * 1.25;
+
+$font-weight-regular:          400;
+$font-weight-light:           300;
+$font-weight-lighter:         200;
+$font-weight-bold:            700;
+$font-weight-bolder:          900;
+
+$font-weight-base:            $font-weight-regular;
+
+$line-height-base:            1.5;
+$line-height-sm:              1;
+$line-height-lg:              1.75;
+
+$heading-font-weight:      600;
+$heading-line-height:      1.1;
+$display-font-weight:       400; 
+$display-line-height:       $heading-line-height;
+
+$font-sizes: (
+  1: 121px,
+  2: 81px,
+  3: 54px,
+  4: 36px,
+  5: 24px,
+);
+
+$text-position: (
+    "justify", "center", "left", "right"
+);

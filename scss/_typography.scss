@@ -1,0 +1,103 @@
+@each $id, $font-size in $font-sizes {
+    .display-#{$id} {
+        font-family: 'Nexa';
+        @include font-size($font-size);
+        font-weight: $display-font-weight;
+        line-height: $display-line-height;
+    }
+
+    h#{$id} {
+        font-family: 'Nexa';
+        @include font-size($font-size);
+        font-weight: $heading-font-weight;
+        line-height: $display-line-height;
+    }
+}
+
+
+a {
+    font-size: $font-size-base;
+    font-family: 'Nexa';
+    text-decoration: none;
+    color: $link-color;
+    &:visited {
+        color: $link-color-visited;
+    }
+    
+    &:hover {
+        color: $link-color-hover;
+    }
+
+    &:active {
+        color: $link-color-active;
+    }
+}
+
+.text {
+    font-family: $font-family-base;
+    font-weight: $font-weight-regular; 
+    line-height: $line-height-base;
+
+    &-sm {
+        font-size: $font-size-sm; // 12px
+        font-family: $font-family-base;
+    }
+
+    &-md {
+        font-size: $font-size-base; // 16 px
+        font-family: $font-family-base;
+        line-height: $line-height-base;
+    }
+    
+    &-lg {
+        font-size: $font-size-lg; // 20 px
+        font-family: $font-family-base;
+        line-height: $line-height-lg;
+    }
+
+    &-wrap {
+        @include text-wrap;
+    }
+
+    &-reset {
+        @include text-reset;
+    }
+    
+    @each $position in $text-position {
+        &-#{$position} {
+            text-align: $position;
+        }
+    }
+}
+
+.font {
+    @for $i from 1 through 9 {
+        &-#{$i}00 {
+           font-weight: #{($i * 100)};
+        }
+    }
+}
+
+.light {
+    font-weight: $font-weight-light;
+}
+
+.lighter {
+    font-weight: $font-weight-lighter;
+}
+
+.bold {
+    font-weight: $font-weight-bold;
+}
+
+.bolder {
+    font-weight: $font-weight-bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}

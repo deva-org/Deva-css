@@ -101,6 +101,166 @@
   font-weight: 900;
   src: url("../assets/fonts/NexaBlackItalic.otf") format("opentype"); }
 
+.display-1 {
+  font-family: 'Nexa';
+  font-size: 121px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h1 {
+  font-family: 'Nexa';
+  font-size: 121px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+.display-2 {
+  font-family: 'Nexa';
+  font-size: 81px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h2 {
+  font-family: 'Nexa';
+  font-size: 81px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+.display-3 {
+  font-family: 'Nexa';
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h3 {
+  font-family: 'Nexa';
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+.display-4 {
+  font-family: 'Nexa';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h4 {
+  font-family: 'Nexa';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+.display-5 {
+  font-family: 'Nexa';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h5 {
+  font-family: 'Nexa';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+a {
+  font-size: 1em;
+  font-family: 'Nexa';
+  text-decoration: none;
+  color: #0d6efd; }
+  a:visited {
+    color: #0143a3; }
+  a:hover {
+    color: #408cfd; }
+  a:active {
+    color: #0257d5; }
+
+.text {
+  font-family: "Nexa";
+  font-weight: 400;
+  line-height: 1.5; }
+  .text-sm {
+    font-size: 0.75em;
+    font-family: "Nexa"; }
+  .text-md {
+    font-size: 1em;
+    font-family: "Nexa";
+    line-height: 1.5; }
+  .text-lg {
+    font-size: 1.25em;
+    font-family: "Nexa";
+    line-height: 1.75; }
+  .text-wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .text-reset {
+    font-family: "Nexa" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 1.25 !important;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    text-transform: none !important;
+    text-align: left !important;
+    text-align: start !important;
+    letter-spacing: normal !important;
+    word-break: normal !important;
+    word-spacing: normal !important;
+    white-space: normal !important;
+    line-break: auto !important; }
+  .text-justify {
+    text-align: "justify"; }
+  .text-center {
+    text-align: "center"; }
+  .text-left {
+    text-align: "left"; }
+  .text-right {
+    text-align: "right"; }
+
+.font-100 {
+  font-weight: 100; }
+
+.font-200 {
+  font-weight: 200; }
+
+.font-300 {
+  font-weight: 300; }
+
+.font-400 {
+  font-weight: 400; }
+
+.font-500 {
+  font-weight: 500; }
+
+.font-600 {
+  font-weight: 600; }
+
+.font-700 {
+  font-weight: 700; }
+
+.font-800 {
+  font-weight: 800; }
+
+.font-900 {
+  font-weight: 900; }
+
+.light {
+  font-weight: 300; }
+
+.lighter {
+  font-weight: 200; }
+
+.bold {
+  font-weight: 700; }
+
+.bolder {
+  font-weight: 900; }
+
+.italic {
+  font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
+
 .text-neutral-50 {
   color: #f8fafc; }
 
